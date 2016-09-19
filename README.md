@@ -11,7 +11,8 @@ syllabes.js is a JavaScript library that can parse multiple types of subtitles o
 
 **Useful links :**
 
-- [How to contribute](https://github.com/Komanaki/syllabesjs/CONTRIBUTE.md)
+- [How to contribute](https://github.com/Komanaki/syllabesjs/blob/master/CONTRIBUTE.md)
+- [NPM homepage](https://www.npmjs.com/package/syllabesjs)
 
 syllabes.js is proudly written in [TypeScript](http://www.typescriptlang.org/), and is available under the [MIT license](https://www.tldrlegal.com/l/mit).
 
@@ -21,6 +22,7 @@ Installation
 Download the library using one of these ways :
 
 - Clone this git repository
+- `npm install syllabesjs`
 - Download the [development version](https://raw.githubusercontent.com/Komanaki/syllabesjs/master/dist/syllabes.js) or the production-ready [minifed file](https://raw.githubusercontent.com/Komanaki/syllabesjs/master/dist/syllabes.min.js).
 
 Supported file formats

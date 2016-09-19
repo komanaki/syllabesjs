@@ -1,7 +1,7 @@
 {
   "name": "syllabesjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "A JavaScript parser of multiple subtitles or lyrics file formats",
   "keywords": [
     "subtitles",
     "lyrics",
