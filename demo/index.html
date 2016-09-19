@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			html {
+				margin: 0 auto;
+				max-width: 900px;
+				color: #FFF;
+				font-family: "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+				background-color: #222;
+			}
+
+			h2 {
+				font-weight: normal;
+				margin: 1.5em 0 1em 0;
+				padding-bottom: 5px;
+				border-bottom: 1px solid #999;
+			}
+
+			label {
+				cursor: pointer;
+			}
+
+			pre {
+				height: 50vh;
+				overflow-y: scroll;
+			}
+		</style>
+		<title>syllabes.js - Demo</title>
+	</head>
+
+	<body>
+		<h1>syllabes.js - Demo</h1>
+
+		<h2>Configuration</h2>
+		<p>
+			<label><input type="number" name="offset" value="0"> offset</label>
+		</p>
+		<p>
+			<label><input type="checkbox" name="syllable_precision" checked> syllable_precision</label>
+		</p>
+		<p>
+			<label><input type="checkbox" name="start_as_previous_end"> start_as_previous_end</label>
+		</p>
+
+		<h2>File to parse</h2>
+		<select id="files">
+			<option value="subrip.srt">SubRip 1</option>
+			<option value="subrip2.srt">SubRip 2</option>
+			<option value="webvtt.vtt">WebVTT</option>
+			<option value="ultrastar.txt">Ultrastar</option>
+		</select>
+
+		<h2>Output</h2>
+		<ul id="track"></ul>
+
+		<h2>Raw output</h2>
+		<pre></pre>
+
+		<script src="https://cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js"></script>
+		<script src="../dist/syllabes.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

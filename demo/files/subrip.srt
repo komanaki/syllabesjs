@@ -1,0 +1,9 @@
+1
+00:00:00,000 --> 00:00:04,400 X1:100 X2:600 Y1:100 Y2:400
+This is a <i>sample</i> subtitle
+having some <font color="cyan">styling</font>,
+
+2
+00:00:04,600 --> 00:00:07,800
+and not only using {u}HTML tags{/u}
+as you can see !
