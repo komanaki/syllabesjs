@@ -14,10 +14,12 @@
   "homepage": "https://github.com/Komanaki/syllabesjs",
   "bugs": "https://github.com/Komanaki/syllabesjs/issues",
   "license": "MIT",
+  "author": "Komanaki",
   "repository": {
     "type": "git",
     "url": "https://github.com/Komanaki/syllabesjs.git"
   },
+  "main": "dist/syllabes.js",
   "files": [
     "src",
     "dist",
